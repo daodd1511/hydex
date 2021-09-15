@@ -63,3 +63,27 @@ body {
   border: none;
   font-size: 10px;
 }
+
+.info {
+  padding: 100px 20px;
+  background-color: var(--primary-color);
+}
+.info i {
+  color: white;
+  font-size: 30px;
+  width: 15%;
+  text-align: center;
+}
+.info-detail {
+  width: 70%;
+}
+.info-detail h4 {
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
+}
+.info-detail p {
+  color: white;
+  font-size: 14px;
+  font-weight: 300;
+}

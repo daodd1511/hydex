@@ -104,18 +104,19 @@ body {
   background-color: #f7f7f7;
   padding: 80px 70px 80px 90px;
 }
-.project h3 {
+.project h3,.about-us h3 {
   font-weight: normal;
   padding-bottom: 16px;
 }
 
-.project .seperator {
+.seperator {
   height: 2px;
   width: 35px;
   background-color: #333;
 }
 
-.project-right p,li {
+.project-right p,li
+{
   color: #727272;
 }
 .project-right span {
@@ -143,4 +144,40 @@ body {
 .btn-read-more:hover {
   background-color: var(--primary-color);
   color: #f7f7f7;
+}
+/* About us */
+.about-us{
+  height: 800px;
+}
+.about-us-top {
+  padding: 80px 0;
+}
+.about-us p {
+  color: #727272;
+  font-size: 14px;
+  padding-top: 16px;
+}
+.about-us-img{
+  width: 100%;
+}
+
+.about-us .textbox {
+ background-color: #242424;
+ color: #fff;
+ height: 80%;
+ padding: 40px;
+}
+.textbox h3{
+  font-size: 22px;
+}
+.textbox .seperator {
+  background-color: #fff;
+}
+.textbox .btn-read-more {
+  background-color: var(--primary-color);
+  color: #fff;
+}
+.textbox .btn-read-more:hover{
+  background-color: #fff;
+  color: var(--primary-color);
 }

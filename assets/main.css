@@ -166,8 +166,7 @@ body {
 .about-us .textbox {
  background-color: #242424;
  color: #fff;
- height: 420px;
- width: 350px;
+ width: 100%;
  padding: 40px;
 }
 .textbox h3{
@@ -182,5 +181,32 @@ body {
 }
 .textbox .btn-read-more:hover{
   background-color: #fff;
+  color: var(--primary-color);
+}
+/* Promotion */
+.promotion {
+  background-color: var(--primary-color);
+  padding: 50px 0;
+  margin: 0;
+}
+.promotion .row{
+  max-width: 1170px;
+}
+.promotion h3 {
+  font-weight: 300;
+  color: white;
+}
+.btn-purchase {
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background-color: var(--primary-color);
+  border: none;
+  color: white;
+  font-weight: 300;
+  border-radius: 0;
+}
+.btn-purchase:hover{
+  background-color: white;
   color: var(--primary-color);
 }
